@@ -1,0 +1,55 @@
+pipeline {
+  agent any
+
+  environment {
+    IMAGE_NAME = "mosquitto"
+  }
+
+  stages {
+    stage('Clone') {
+      steps {
+        checkout([
+          $class: 'GitSCM',
+          branches: [[name: '*/main']],
+          userRemoteConfigs: [[
+            url: 'https://github.com/25-1-INHA-EEUM/message_broker.git', 
+            credentialsId: 'github-token'
+          ]]
+        ])
+      }
+    }
+
+    stage('Deploy to Target EC2') {
+      steps {
+        withCredentials([
+          string(credentialsId: 'target-host-ip', variable: 'TARGET_HOST_SECRET')
+        ]) {
+          withEnv(["TARGET_HOST=${env.TARGET_HOST_SECRET}"]) {
+            sshagent(credentials: ['data-server-ec2-key']) {
+
+              sh """
+                echo "📦 docker-compose.yml과 mosquitto 디렉토리 전송 중..."
+                ssh -o StrictHostKeyChecking=no ec2-user@${env.TARGET_HOST} "
+                  sudo rm -rf ~/mosquitto-broker &&
+                  mkdir -p ~/mosquitto-broker &&
+                  sudo chown ec2-user:ec2-user ~/mosquitto-broker
+                "
+                scp -r -o StrictHostKeyChecking=no docker-compose.yml mosquitto ec2-user@${env.TARGET_HOST}:~/mosquitto-broker/
+              """
+
+              sh """
+                echo "🚀 Mosquitto Broker 컨테이너 배포 시작..."
+                ssh -o StrictHostKeyChecking=no ec2-user@${env.TARGET_HOST} "
+                  cd ~/mosquitto-broker &&
+                  sudo docker compose down || true &&
+                  sudo docker image prune -af &&
+                  sudo docker compose up -d
+                "
+              """
+            }
+          }
+        }
+      }
+    }
+  }
+}

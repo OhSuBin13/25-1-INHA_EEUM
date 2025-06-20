@@ -1,0 +1,72 @@
+pipeline {
+  agent any
+
+  environment {
+    IMAGE_NAME = "time-scale-database"
+  }
+
+  stages {
+    stage('Clone') {
+      steps {
+        checkout([
+          $class: 'GitSCM',
+          branches: [[name: '*/main']],
+          userRemoteConfigs: [[
+            url: 'https://github.com/25-1-INHA-EEUM/time-scale-database.git',
+            credentialsId: 'github-token'
+          ]]
+        ])
+      }
+    }
+
+    stage('Deploy to Target EC2') {
+      steps {
+        withCredentials([
+          string(credentialsId: 'time-scale-database-host-ip', variable: 'TARGET_HOST_SECRET'),
+          string(credentialsId: 'postgres-user', variable: 'POSTGRES_USER_SECRET'),
+          string(credentialsId: 'postgres-password', variable: 'POSTGRES_PASSWORD_SECRET'),
+          string(credentialsId: 'postgres-db', variable: 'POSTGRES_DB_SECRET')
+        ]) {
+          withEnv(["TARGET_HOST=${env.TARGET_HOST_SECRET}"]) {
+            sshagent(credentials: ['time-scale-database-ec2-key']) {
+
+              sh """
+                echo "📦 docker-compose.yml database/init.sql 전송 중..."
+                ssh -o StrictHostKeyChecking=no ec2-user@${env.TARGET_HOST} "
+                  sudo rm -rf ~/time-scale-database &&
+                  mkdir -p ~/time-scale-database &&
+                  sudo chown ec2-user:ec2-user ~/time-scale-database
+                "
+                scp -r -o StrictHostKeyChecking=no docker-compose.yml database ec2-user@${env.TARGET_HOST}:~/time-scale-database/
+              """
+
+              sh """
+                echo "🛠️ Amazon Linux 2023용 docker, aws-cli, docker composeV2 설치..."
+                ssh -o StrictHostKeyChecking=no ec2-user@${env.TARGET_HOST} "
+                  sudo yum update -y &&
+                  sudo yum install -y docker aws-cli &&
+                  sudo systemctl enable --now docker &&
+                  sudo mkdir -p /usr/local/lib/docker/cli-plugins &&
+                  sudo curl -SL https://github.com/docker/compose/releases/download/v2.27.0/docker-compose-linux-x86_64 -o /usr/local/lib/docker/cli-plugins/docker-compose &&
+                  sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
+                "
+              """
+
+              sh """
+                echo "🚀 docker compose up 실행..."
+                ssh -o StrictHostKeyChecking=no ec2-user@${env.TARGET_HOST} "
+                  cd ~/time-scale-database &&
+                  echo 'POSTGRES_USER=${env.POSTGRES_USER_SECRET}' > .env &&
+                  echo 'POSTGRES_PASSWORD=${env.POSTGRES_PASSWORD_SECRET}' >> .env &&
+                  echo 'POSTGRES_DB=${env.POSTGRES_DB_SECRET}' >> .env &&
+                  sudo docker compose down || true &&
+                  sudo docker compose up -d
+                "
+              """
+            }
+          }
+        }
+      }
+    }
+  }
+}
