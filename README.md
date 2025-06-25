@@ -63,7 +63,7 @@
 
 | Jenkins | Dokcer | SwaggerUI | EC2 | GitHub Action | 
 | :----: | :--: | :---: | :------------: | :-: | 
-| <img alt="Jenkins" src="https://github.com/user-attachments/assets/7919b3f5-2eba-48ee-9056-a587c230d659" width="100" height="65" /> | <img alt="Docker" src="https://github.com/user-attachments/assets/0a035841-6527-4e24-ade9-ba293429a5ed" width="100" height="65" /> | <img alt="SwaggerUI" src="https://github.com/user-attachments/assets/ae8f6a9d-5ee5-449d-b6c3-c2a6e88bb543" width="65" height="65" /> | <img alt="EC2" src="https://github.com/user-attachments/assets/a5944809-ba92-49be-acd2-4fd8145d3593" width="100" height="65" /> | <img alt="GitHub Action" src="https://github.com/user-attachments/assets/2f74c0f6-b10f-4640-865d-27588ad4fa5e" width="100" height="65" /> |
+| <img alt="Jenkins" src="https://github.com/user-attachments/assets/d3ce9486-31cd-4fe2-86ea-3ef193fd52c2" width="100" height="65" /> | <img alt="Docker" src="https://github.com/user-attachments/assets/05c54b97-d410-49df-be89-ad693d2ac0ba" width="100" height="65" /> | <img alt="SwaggerUI" src="https://github.com/user-attachments/assets/b7fe5a33-9227-4459-9ed9-ce0227c2ff25" width="65" height="65" /> | <img alt="EC2" src="https://github.com/user-attachments/assets/ed316203-60cd-4635-891c-5bd459916be9" width="100" height="65" /> | <img alt="GitHub Action" src="https://github.com/user-attachments/assets/1b8323a4-767e-4b81-90a0-53e96a3ca783" width="100" height="65" /> |
 
 ---
 
