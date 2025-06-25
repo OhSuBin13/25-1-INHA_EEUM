@@ -11,7 +11,7 @@
 - **Frontend (FE):** 이시현  
 - **Backend (BE):** 오수빈  
 
-**🖥️ 최종발표 자료:** [📥 최종발표.pptx](https://github.com/hyeonhoi11/25-1-INHArit/releases/tag/INHArit)  
+**🖥️ 최종발표 자료:** [📥 최종발표.pptx](https://github.com/OhSuBin13/25-1-INHA_EEUM/blob/main/%5B1%5D%202025-1%ED%95%99%EA%B8%B0%20%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8%20%EB%B0%9C%ED%91%9C_%EC%9D%B8%ED%95%98%EC%9D%B4%EC%9D%8C_%EC%A0%84%EC%B2%B4_%EC%88%98%EC%A0%95%EB%B3%B8_4.pptx)  
 **📹 시연영상:** [📲 시연영상](https://www.youtube.com/watch?v=7N53MisEojM)
 
 ---
@@ -51,13 +51,13 @@
 
 | React | Vercel | 
 | :----: | :--------: |
-| <img alt="React" src="https://github.com/user-attachments/assets/e65ee3e0-2651-4f8b-8260-75eb460e3e26" height="65" width="150"> | <img alt="Vercel" src="https://github.com/user-attachments/assets/3930737d-bf4f-45c7-a146-85b1e19762d4" height="65" width="150"> |
+| <img alt="React" src="https://github.com/user-attachments/assets/32131839-8533-46bd-a615-8c08b7dcdcea" height="65" width="150"> | <img alt="Vercel" src="https://github.com/user-attachments/assets/d0043b3c-9e70-45c9-a52f-3bbdf5b6a8fe" height="65" width="150"> |
 
 ### 🖥 **Backend**
 
 | FastAPI | Python | TimeScaleDB | Redis | Weather API | K-MEANS | XGBoost | MQTT
 | :----: | :--: | :---: | :-------------: | :-: | :------: | :---: | :----: |
-| <img alt="FastAPI" src="https://github.com/user-attachments/assets/30d7393d-2ee7-4173-b395-61a2ea220a9f" width="65" height="30" /> | <img alt="Python" src="https://github.com/user-attachments/assets/87c69dac-1735-4878-9902-457ce6164652" width="65" height="65" /> | <img alt="TimeScaleDB" src="https://github.com/user-attachments/assets/302e35e5-70b1-4849-9cb2-0c8870a7ca9b" width="65" height="65" /> | <img alt="Redis" src="https://github.com/user-attachments/assets/19a562dc-f15c-446a-8536-e77f5a4abbd0" width="65" height="65" /> | <img alt="Weather API" src="https://github.com/user-attachments/assets/7ebc8409-ddd4-4f08-bf2e-13660daffff5" width="65" height="65" /> | <img alt="K-MEANS" src="https://github.com/user-attachments/assets/94501887-2164-406a-b2e8-7541645e16e6" width="100" height="65" /> | <img alt="XGBoost" src="https://github.com/user-attachments/assets/43f63346-35bd-469b-aed9-dd11248b58c6" width="100" height="65" /> | <img alt="MQTT" src="https://github.com/user-attachments/assets/89b0471f-fbcc-4e2a-9adc-61832f09c653" width="100" height="65" /> |
+| <img alt="FastAPI" src="" width="65" height="30" /> | <img alt="Python" src="https://github.com/user-attachments/assets/87c69dac-1735-4878-9902-457ce6164652" width="65" height="65" /> | <img alt="TimeScaleDB" src="https://github.com/user-attachments/assets/302e35e5-70b1-4849-9cb2-0c8870a7ca9b" width="65" height="65" /> | <img alt="Redis" src="https://github.com/user-attachments/assets/19a562dc-f15c-446a-8536-e77f5a4abbd0" width="65" height="65" /> | <img alt="Weather API" src="https://github.com/user-attachments/assets/7ebc8409-ddd4-4f08-bf2e-13660daffff5" width="65" height="65" /> | <img alt="K-MEANS" src="https://github.com/user-attachments/assets/94501887-2164-406a-b2e8-7541645e16e6" width="100" height="65" /> | <img alt="XGBoost" src="https://github.com/user-attachments/assets/43f63346-35bd-469b-aed9-dd11248b58c6" width="100" height="65" /> | <img alt="MQTT" src="https://github.com/user-attachments/assets/89b0471f-fbcc-4e2a-9adc-61832f09c653" width="100" height="65" /> |
 
 ### 🖥 **그외**
 
