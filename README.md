@@ -9,11 +9,10 @@
 **👨‍👩‍👧‍👦 Team Members:** 
 - **Mentor:** 김선영 대표님  
 - **Frontend (FE):** 이시현  
-- **AI/ML:** 강우석  
-- **Backend (BE):** 고대권, 김현회, 오수빈  
+- **Backend (BE):** 오수빈  
 
 **🖥️ 최종발표 자료:** [📥 최종발표.pptx](https://github.com/hyeonhoi11/25-1-INHArit/releases/tag/INHArit)  
-**📹 시연영상:** [📲 시연영상]([https://www.youtube.com/watch?v=jRs_1vmYQMQ](https://youtu.be/7N53MisEojM))
+**📹 시연영상:** [📲 시연영상](https://www.youtube.com/watch?v=7N53MisEojM)
 
 ---
 
@@ -29,7 +28,7 @@
 
 ## 👓 Backend/ ESP32
 | 오수빈<br> |
-| :----------------: | :----------------: | :----------------:|
+| :----------------: |
 | **Features**<br/>- **ESP32, 백엔드 기능 구현** <br/>- BE|
 
 ---
@@ -50,21 +49,21 @@
 
 ### 🖥 **Frontend**
 
-| React | Vercel |
+| React | Vercel | 
 | :----: | :--------: |
 | <img alt="React" src="https://github.com/user-attachments/assets/e65ee3e0-2651-4f8b-8260-75eb460e3e26" height="65" width="150"> | <img alt="Vercel" src="https://github.com/user-attachments/assets/3930737d-bf4f-45c7-a146-85b1e19762d4" height="65" width="150"> |
 
 ### 🖥 **Backend**
 
-| Spring | Java | MySQL | Spring Security | JPA | JWT | SMTP | Redis | SwaggerUI | Google Cloud Platform |
-| :----: | :--: | :---: | :-------------: | :-: | :------: | :---: | :----: | :-: | :----: |
-| <img alt="Spring" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV_gfWuam4XTPX1JX7unZTzl7jKFWUwkrhXA&s" width="65" height="30" /> | <img alt="Java" src="https://techstack-generator.vercel.app/java-icon.svg" width="65" height="65" /> | <img alt="MySQL" src="https://techstack-generator.vercel.app/mysql-icon.svg" width="65" height="65" /> | <img alt="Spring Security" src="https://pbs.twimg.com/profile_images/1235983944463585281/AWCKLiJh_400x400.png" width="65" height="65" /> | <img alt="JPA" src="https://velog.velcdn.com/images/iione0116/post/80f895d6-dd5c-4664-b3e5-ba12d51c361e/image.png" width="65" height="65" /> | <img alt="JWT" src="https://github.com/user-attachments/assets/d5195461-a3e8-485b-8a87-ae6cb94efdca" width="100" height="65" /> | <img alt="SMTP" src="https://github.com/user-attachments/assets/0a5626e8-df26-4d38-b543-388076f4b90d" width="100" height="65" /> | <img alt="Redis" src="https://github.com/user-attachments/assets/8f446811-6f3e-448f-8ef9-d05e29fa96b6" width="100" height="65" /> | <img alt="SwaggerUI" src="https://www.elizeire.com/assets/img/swagger.png" width="100" height="65" /> | <img alt="GCP" src="https://github.com/user-attachments/assets/c087c2ba-1d4a-4f67-ab50-24effd9067a7" width="100" height="65" />
+| FastAPI | Python | TimeScaleDB | Redis | Weather API | K-MEANS | XGBoost | MQTT
+| :----: | :--: | :---: | :-------------: | :-: | :------: | :---: | :----: |
+| <img alt="FastAPI" src="https://github.com/user-attachments/assets/30d7393d-2ee7-4173-b395-61a2ea220a9f" width="65" height="30" /> | <img alt="Python" src="https://github.com/user-attachments/assets/87c69dac-1735-4878-9902-457ce6164652" width="65" height="65" /> | <img alt="TimeScaleDB" src="https://github.com/user-attachments/assets/302e35e5-70b1-4849-9cb2-0c8870a7ca9b" width="65" height="65" /> | <img alt="Redis" src="https://github.com/user-attachments/assets/19a562dc-f15c-446a-8536-e77f5a4abbd0" width="65" height="65" /> | <img alt="Weather API" src="https://github.com/user-attachments/assets/7ebc8409-ddd4-4f08-bf2e-13660daffff5" width="65" height="65" /> | <img alt="K-MEANS" src="https://github.com/user-attachments/assets/94501887-2164-406a-b2e8-7541645e16e6" width="100" height="65" /> | <img alt="XGBoost" src="https://github.com/user-attachments/assets/43f63346-35bd-469b-aed9-dd11248b58c6" width="100" height="65" /> | <img alt="MQTT" src="https://github.com/user-attachments/assets/89b0471f-fbcc-4e2a-9adc-61832f09c653" width="100" height="65" /> |
 
 ### 🖥 **그외**
 
-| Google Maps API | RaspberryPi | YOLOv5 | 
-| :----: | :------------: | :------------: |
-| <img alt="Google Maps API" src="https://github.com/user-attachments/assets/1794ba95-d813-4912-83a2-30f9d0f0595d" height="65" width="150"> | <img alt="RaspberryPi" src="https://github.com/user-attachments/assets/9318708c-9e22-4d2c-b261-ce04a65c4ff7" height="65" width="200"> | <img alt="YOLOv5" src="https://github.com/user-attachments/assets/82505eb0-19b1-41ee-aef4-f0114d8451b1" height="65" width="200"> |
+| Jenkins | Dokcer | SwaggerUI | EC2 | GitHub Action | 
+| :----: | :--: | :---: | :------------: | :-: | 
+| <img alt="Jenkins" src="https://github.com/user-attachments/assets/7919b3f5-2eba-48ee-9056-a587c230d659" width="100" height="65" /> | <img alt="Docker" src="https://github.com/user-attachments/assets/0a035841-6527-4e24-ade9-ba293429a5ed" width="100" height="65" /> | <img alt="SwaggerUI" src="https://github.com/user-attachments/assets/ae8f6a9d-5ee5-449d-b6c3-c2a6e88bb543" width="65" height="65" /> | <img alt="EC2" src="https://github.com/user-attachments/assets/a5944809-ba92-49be-acd2-4fd8145d3593" width="100" height="65" /> | <img alt="GitHub Action" src="https://github.com/user-attachments/assets/2f74c0f6-b10f-4640-865d-27588ad4fa5e" width="100" height="65" /> |
 
 ---
 
