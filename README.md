@@ -51,14 +51,13 @@
 
 | React | Vercel | 
 | :----: | :--------: |
-| <img alt="React" src="https://github.com/user-attachments/assets/32131839-8533-46bd-a615-8c08b7dcdcea" height="65" width="150"> | <img alt="Vercel" src=![image](https://github.com/user-attachments/assets/5035f4d7-8658-4921-be5f-6bfba1266432)
- height="65" width="150"> |
+| <img alt="React" src="https://github.com/user-attachments/assets/5aa92a48-e0ea-4289-93dc-1bef74f9013b" height="65" width="150"> | <img alt="Vercel" src="https://github.com/user-attachments/assets/3c3783c0-c1ab-4e38-ba56-14d58f771f30" height="65" width="150"> |
 
 ### 🖥 **Backend**
 
 | FastAPI | Python | TimeScaleDB | Redis | Weather API | K-MEANS | XGBoost | MQTT
 | :----: | :--: | :---: | :-------------: | :-: | :------: | :---: | :----: |
-| <img alt="FastAPI" src="" width="65" height="30" /> | <img alt="Python" src="https://github.com/user-attachments/assets/87c69dac-1735-4878-9902-457ce6164652" width="65" height="65" /> | <img alt="TimeScaleDB" src="https://github.com/user-attachments/assets/302e35e5-70b1-4849-9cb2-0c8870a7ca9b" width="65" height="65" /> | <img alt="Redis" src="https://github.com/user-attachments/assets/19a562dc-f15c-446a-8536-e77f5a4abbd0" width="65" height="65" /> | <img alt="Weather API" src="https://github.com/user-attachments/assets/7ebc8409-ddd4-4f08-bf2e-13660daffff5" width="65" height="65" /> | <img alt="K-MEANS" src="https://github.com/user-attachments/assets/94501887-2164-406a-b2e8-7541645e16e6" width="100" height="65" /> | <img alt="XGBoost" src="https://github.com/user-attachments/assets/43f63346-35bd-469b-aed9-dd11248b58c6" width="100" height="65" /> | <img alt="MQTT" src="https://github.com/user-attachments/assets/89b0471f-fbcc-4e2a-9adc-61832f09c653" width="100" height="65" /> |
+| <img alt="FastAPI" src="https://github.com/user-attachments/assets/5bc64242-e0d3-4b1a-942f-dd5153147fc1" width="65" height="30" /> | <img alt="Python" src="https://github.com/user-attachments/assets/512b19c2-7f69-4089-b290-b041240cf13f" width="65" height="65" /> | <img alt="TimeScaleDB" src="https://github.com/user-attachments/assets/62b3ce11-525a-4e21-a980-c375ebee023a" width="65" height="65" /> | <img alt="Redis" src="https://github.com/user-attachments/assets/9fd25f4f-61c0-4002-a4d1-cb7330414ca5" width="65" height="65" /> | <img alt="Weather API" src="https://github.com/user-attachments/assets/3d1f9b58-a284-442d-8187-20f4175f699c" width="65" height="65" /> | <img alt="K-MEANS" src="https://github.com/user-attachments/assets/1c017e05-4953-4974-bdcf-60e8e9f9da01" width="100" height="65" /> | <img alt="XGBoost" src="https://github.com/user-attachments/assets/18c7db92-61ab-4faa-a7f4-b688c4562236" width="100" height="65" /> | <img alt="MQTT" src="https://github.com/user-attachments/assets/136dca6f-a72e-46c9-a623-6f6c340a0b9b" width="100" height="65" /> |
 
 ### 🖥 **그외**
 
