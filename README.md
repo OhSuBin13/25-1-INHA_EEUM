@@ -51,7 +51,8 @@
 
 | React | Vercel | 
 | :----: | :--------: |
-| <img alt="React" src="https://github.com/user-attachments/assets/32131839-8533-46bd-a615-8c08b7dcdcea" height="65" width="150"> | <img alt="Vercel" src="https://github.com/user-attachments/assets/d0043b3c-9e70-45c9-a52f-3bbdf5b6a8fe" height="65" width="150"> |
+| <img alt="React" src="https://github.com/user-attachments/assets/32131839-8533-46bd-a615-8c08b7dcdcea" height="65" width="150"> | <img alt="Vercel" src=![image](https://github.com/user-attachments/assets/5035f4d7-8658-4921-be5f-6bfba1266432)
+ height="65" width="150"> |
 
 ### 🖥 **Backend**
 
